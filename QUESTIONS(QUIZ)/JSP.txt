@@ -1,0 +1,84 @@
+1.	A text document that contains two types of text: static data, which can be expressed in any text-based format (such as HTML, SVG, WML, and XML), and JSP elements, which construct dynamic content.
+Option 1: JPS page
+Option 2: JSP page// right answer 
+Option 3:JPP Page
+
+2.	The recommended extension for the source file of a fragment of a JSP page is ____.
+Option 1: .jsp
+Option 2: .jspx
+Option 3: .jspf//right answer
+
+3.	A content type is set with this particular directive and will brought back to the page: 
+Option 1: (<%@page ... %>) //right answer
+Option 2: jsp:bean. 
+Option 3: (<%@taglib ... %>)
+4.	Objects created with a package containing locales and identifiers that directs to a object as a standard element is called a A directive where custom tag libraries are imported: 
+Option 1: (<%@page ... %>)
+Option 2: jsp:bean. //right answer
+Option 3: (<%@taglib ... %>)
+5.	There are object properties that call the value of JSP expressions under the language expressions and these are___. Values are recycled are used to establish custom tag attribute values and build content that is dynamic. 
+Option 1: (${ }) //right answer
+Option 2: ($<>) 
+Option 3: (!{})
+6.	A variable is determined as a custom tag it is called ____ , a collection is emphasized locale names called ____ ,and tentatively HTML text is inseted in the response. 
+Option 1: (<%@page ... %>) and jsp:bean.
+Option 2: (c:set) and (c:forEach) //right answer
+Option 3: (<%@taglib ... %>) and (c:forEach)
+7.	Another standard element that appoints a value of a certain property of an object this is the jsp:setProperty 
+Option 1: jsp:setProperty  //right answer
+Option 2: jsp:bean. 
+Option 3: (<%@taglib ... %>)
+8.	This function test equality of the attributes and the collection’s present item there is also an inherited operator, ==, and is used for testing the equality. (f:equals)
+Option 1: (<%@page ... %>)
+Option 2: jsp:bean. 
+Option 3: (f:equals) //right answer
+
+9.	JSP stands for JavaServer Pages.
+True//right answer
+False
+10.	JSP was released in____
+Option 1: 1999 //right asnwer
+Option 2:1998
+Option 3:1992
+
+11.	JSP ws released by 
+Option 1: Tim Berners Lee
+Option 2: Microsystem//right answer 
+Option 3: Steve Jobs
+
+12.	It consists of either ___ or ____ with JSP actions and commands.
+Option 1:HTML or API
+Option 2: XML or CSS
+Option 3: HTML or XML //right answer
+13.	 The advantage of JSP is that the programming language used is JAVA, which is a dynamic language and easily portable to other operating systems.
+True //true
+False
+14.	JSP can also include the database connections into it. It can contain all type of java objects
+True //true
+False
+
+15.	Performance and scalability of JSP are very good because JSP allows embedding of dynamic elements in HTML pages.
+True //true
+False
+
+16.	As it is built on Java technology, hence it is platform independent and not depending on any operating systems.
+True //true
+False
+
+17.	JSP Scriptlet..
+Option 1: does not allow to write Java code into JSP file.
+Option 2: Contains java code that is executed every time JSP is invoked. //right answer
+Option 3: For each request of the client, service method of the JSP does not invoke hence the code inside the Scriptlet executes for every request.
+18.	JSP expression does not produces scriptess JSP pages
+True  
+False //right answer
+
+19.	JSP can access data stored in stored application 
+true //right answer
+false
+
+20.	JSP comment syntax:
+Option 1: <$ -- JSP Comments $>
+Option 2: < -- JSP Comments >
+Option 3:  <% -- JSP Comments %> //right answer
+
