@@ -3,3 +3,8 @@
 3. The font-style CSS property has four different valid values. Three of these values are inherit, normal, and italic. What is one other valid value? = oblique
 4. What is the CSS at-rule that can allow you to define the character encoding of a stylesheet? = @charset
 5. Who is making the Web standards? = The World Wide Web Consortium
+6. Which HTML tag is used to define an internal style sheet? = <style>
+7. Which HTML attribute is used to define inline styles? = style
+8. How do you insert a comment in a CSS file? = /*comment*/
+9. CSS padding property is used for? = padding
+10. A small piece of program that can add interactivity to your website is called as? = script
