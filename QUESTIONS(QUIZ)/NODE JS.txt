@@ -1,0 +1,88 @@
+NODE JS
+
+1.	A cross-platform database program that can represent information. It is a represented as a doc and is also a database program that is document-oriented.
+Option 1: Express.js
+Option 2: AngularJS
+Option 3: MongoDB //right answer
+2.	A Framework for Node.js, this was released as a software that is open-source. This framework is for web applications. It was API designed to construct applications for the web. It is known to be Node.js', standard framework for the server.
+Option 1: Express.js//right answer
+Option 2: AngularJS
+Option 3: MongoDB 
+
+3.	A run-time environment for Javascript. It is open source and can work in different platforms. It executes JS at server-side.
+Option 1: Express.js//right answer
+Option 2: AngularJS
+Option 3: MongoDB 
+
+4.	Web application framework that is front-end and is also open-source software. It also utilizes Javascript and is based from it. It also is consistently maintained by Google who can address the challenges to develop applications.
+Option 1: Express.js
+Option 2: NodeJS//right answer
+Option 3: MongoDB 
+
+5.	A platform that is built on Chrome’s JavaScript runtime for fast building and for scaling network applications without encountering too much difficulties. This is an input output model that uses event-driven and is non-blocking. It is also efficient for real time applications that are intensive and could run across devices that use distribution.
+Option 1: NODE JS//right answer
+Option 2: AngularJS
+Option 3: MongoDB 
+
+6.	Comprises of MongoDB, Express.js, AngularJS, and NodeJS.
+Option 1: RIGHT STACK
+Option 2: MEAN STACK //RIGHT ANSWER
+Option 3: HEADER STACK
+
+
+
+7.	Node.js is not an open source server environment.
+True
+False// right answer
+8.	Node.js allows you to run JavaScript on the server.
+True//right answer
+False
+
+9.	Node.js can generate dynamic page content
+True//right answer
+False
+
+10.	Node.js can create, open, read, write, delete, and close files on the server
+True//right answer
+False
+
+11.	Node.js can collect form data
+True//right answer
+False
+12.	Node.js can add, delete, modify data in your database
+True//right answer
+False
+
+
+13.	Node.js files contain tasks that will be executed on certain events
+True//right answer
+False
+
+14.	Node.js files must not be initiated on the server before having any effect
+True
+False //right answer
+
+15.	Node.js files have extension ".es"
+True
+False //right answer
+
+16.	Node.js files must be initiated in the _______ program of your computer.
+Option 1: Command Line Interface //right answer
+Option 2: Netbeans
+Option 3: VirtualBox
+
+17.	The file you have just created must be initiated by _____before any action can take place.
+Option 1: Express.js
+Option 2: Node.js //right answer
+Option 3: AngularJS
+
+18.	Node.js has a set of built-in modules which you can use without any further installation.
+True//right answer
+False 
+19.	The Node.js file system module does not allow you to work with the file system on your computer.
+True
+False //right answer
+20.	The ______ method is used to read files on your computer.
+Option 1: fs.readFile() //right answer
+Option 2: js.readFile()
+Option 3: rs.readFile()
