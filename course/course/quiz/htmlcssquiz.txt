@@ -1,0 +1,5 @@
+1. What is the CSS selector which allows you to target every element in a web page? = universal selector (*)
+2. Which CSS property allows you to hide an element but still maintain the space it occupies in the web page? = visibility or opacity
+3. The font-style CSS property has four different valid values. Three of these values are inherit, normal, and italic. What is one other valid value? = oblique
+4. What is the CSS at-rule that can allow you to define the character encoding of a stylesheet? = @charset
+5. Who is making the Web standards? = The World Wide Web Consortium
