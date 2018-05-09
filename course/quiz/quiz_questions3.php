@@ -1,12 +1,11 @@
 <?php
 /**
-* quiz1.php
+* quiz3.php
 *
-* Result checker for quiz number 1
+* Questions and answers in quiz number 3
 * 
 * @author Darren Sison
 */ 
-require 'classes/UserAccount.php';
 
 $question1 = '';
 $question2 = '';
@@ -27,11 +26,37 @@ $question16 = '';
 $question17 = '';
 $question18 = '';
 $question19 = '';
-$question10 = '';
+$question20 = '';
 $question21 = '';
 $question22 = '';
 $question23 = '';
 $question24 = '';
 $question25 = '';
+
+$ans1 = 'B';
+$ans2 = 'C';
+$ans3 = 'A';
+$ans4 = 'C';
+$ans5 = 'A';
+$ans6 = 'B';
+$ans7 = 'A';
+$ans8 = 'A';
+$ans9 = 'A';
+$ans10 = 'B';
+$ans11 = 'A';
+$ans12 = 'A';
+$ans13 = 'B';
+$ans14 = 'B';
+$ans15 = 'D';
+$ans16 = 'C';
+$ans17 = 'B';
+$ans18 = 'B';
+$ans19 = 'B';
+$ans20 = 'C';
+$ans21 = 'B';
+$ans22 = 'A';
+$ans23 = 'C';
+$ans24 = 'B';
+$ans25 = 'C';
 
 ?>

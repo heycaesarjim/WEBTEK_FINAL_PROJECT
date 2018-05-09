@@ -56,12 +56,12 @@ if ($answer16 == $ans16) { $totalCorrect++; }
 if ($answer17 == $ans17) { $totalCorrect++; }
 if ($answer18 == $ans18) { $totalCorrect++; }
 if ($answer19 == $ans19) { $totalCorrect++; }
-if ($answer10 == $ans20) { $totalCorrect++; }
+if ($answer20 == $ans20) { $totalCorrect++; }
 if ($answer21 == $ans21) { $totalCorrect++; }
 if ($answer22 == $ans22) { $totalCorrect++; }
 if ($answer23 == $ans23) { $totalCorrect++; }
 if ($answer24 == $ans24) { $totalCorrect++; }
 if ($answer25 == $ans25) { $totalCorrect++; }
 
-echo "<div id='results'>$totalCorrect / 5 correct</div>";
+echo "<div id='results'>$totalCorrect / 25 correct</div>";
 ?>
