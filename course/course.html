@@ -284,7 +284,14 @@
 										<dd> - Node.js can collect form data</dd>
 										<dd> - Node.js can add, delete, modify data in your database</dd>
 									</dl>
+								</div>
+							</div>
+						</div>
 
+						<div class="accordion_container">
+							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Node.js Module</div>
+							<div class="accordion_panel">
+								<div class="footer_column_title" style="color:dimgray; font-weight: 300">
 									<dl>
 										<dt class="lead">What is a Node JS file?</dt>
 										<dd> - Node.js files contain tasks that will be executed on certain events</dd>
@@ -320,50 +327,128 @@
 										<br>
 										<dd>The following example creates a module that returns a date and time object:</dd>
 										<dd><img src="images/nodejs3.png"></dd>
+										<dd>Use the exports keyword to make properties and methods available outside the module file.</dd>
+										<dd>Save the code above in a file called "myfirstmodule.js"</dd>
+									</dl>
+
+									<dl>
+										<dt class="lead">Include Your Own Module</dt>
+										<dd>Now you can include and use the module in any of your Node.js files.</dd>
+										<br>
+										<dd><img src="images/nodejs4.png"></dd>
 									</dl>
 								</div>
 							</div>
 						</div>
 
 						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Handling HTML form with PHP</div>
+							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Node.js HTTP Module</div>
 							<div class="accordion_panel">
-								<p class="footer_column_title" style="color:dimgray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
+								<div class="footer_column_title" style="color:dimgray; font-weight: 300">
+									<dl>
+										<dt class="lead">The Built-in HTTP Module</dt>
+										<dd> Node.js has a built-in module called HTTP, which allows Node.js to transfer data over the Hyper Text Transfer Protocol (HTTP).</dd>
+										<dd> To include the HTTP module, use the require() method:</dd>
+										<dd><img src="images/nodejs5.png"></dd>
+									</dl>
+
+									<dl>
+										<dt class="lead">Node.js as a Web Server</dt>
+										<dd>The HTTP module can create an HTTP server that listens to server ports and gives a response back to the client.</dd>
+										<dd>Use the createServer() method to create an HTTP server:</dd>
+										<dd><img src="images/nodejs6.png"></dd>
+										<dd>The function passed into the http.createServer() method, will be executed when someone tries to access the computer on port 8080.</dd>
+										<dd>Save the code above in a file called "demo_http.js", and initiate the file:</dd>
+										<dd><img src="images/nodejs7.png"></dd>
+										<dd>If you have followed the same steps on your computer, you will see the same result as the example: http://localhost:8080</dd>
+									</dl>
+
+									<dl>
+										<dt class="lead">Add an HTTP Header</dt>
+										<dd>If the response from the HTTP server is supposed to be displayed as HTML, you should include an HTTP header with the correct content type:</dd>
+										<dd><img src="images/nodejs8.png"></dd>
+										<dd>The first argument of the res.writeHead() method is the status code, 200 means that all is OK, the second argument is an object containing the response headers.</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+						<div class="accordion_container">
+							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Node.js File System Module</div>
+							<div class="accordion_panel">
+								<div class="footer_column_title" style="color:dimgray; font-weight: 300">
+									<dl>
+										<dt class="lead">Node.js as a File Server</dt>
+										<dd> The Node.js file system module allow you to work with the file system on your computer.</dd>
+										<dd> To include the File System module, use the require() method:</dd>
+										<dd><img src="images/nodejs9.png"></dd>
+										<br>
+										<dd>Common use for the File System module:</dd>
+										<dd>•	Read files</dd>
+										<dd>•	Create files</dd>
+										<dd>•	Update files</dd>
+										<dd>•	Delete files</dd>
+										<dd>•	Rename files</dd>
+									</dl>
+
+									<dl>
+										<dt class="lead">Read Files</dt>
+										<dd>The fs.readFile() method is used to read files on your computer.</dd>
+										<dd>Assume we have the following HTML file (located in the same folder as Node.js):</dd>
+										<dd><img src="images/nodejs10.png"></dd>
+									</dl>
+
+									<dl>
+										<dt class="lead">Create Files</dt>
+										<dd>The File System module has methods for creating new files:</dd>
+										<dd>•	fs.appendFile()</dd>
+										<dd>•	fs.open()</dd>
+										<dd>•	fs.writeFile()</dd>
+										<dd>The fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created:</dd>
+										<dd><img src="images/nodejs11.png"></dd>
+										<dd>The fs.open() method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created.</dd>
+										<dd>The fs.writeFile() method replaces the specified file and content if it exists. If the file does not exist, a new file, containing the specified content, will be created.</dd>
+									</dl>
+
+									<dl>
+										<dt class="lead">Update Files</dt>
+										<dd>The File System module has methods for updating files:</dd>
+										<dd>•	fs.appendFile()</dd>
+										<dd>•	fs.writeFile()</dd>
+										<dd>The fs.appendFile() method appends the specified content at the end of the specified file.</dd>
+									</dl>
+
+									<dl>
+										<dt class="lead">Delete Files</dt>
+										<dd>To delete a file with the File System module,  use the fs.unlink() method.</dd>
+										<dd>The fs.unlink() method deletes the specified file.</dd>
+									</dl>
+
+									<dl>
+										<dt class="lead">Rename Files</dt>
+										<dd>To rename a file with the File System module,  use the fs.rename() method.</dd>
+										<dd>The fs.rename() method renames the specified file.</dd>
+									</dl>
+								</div>
 							</div>
 						</div>
 
 						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Decisions and loop</div>
+							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Node.js Events</div>
 							<div class="accordion_panel">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
-							</div>
-						</div>
+								<div class="footer_column_title" style="color:dimgray; font-weight: 300">
+									<dl>
+										<dt class="lead">Events in Node.js</dt>
+										<dd> Every action on a computer is an event. Like when a connection is made or a file is opened.</dd>
+										<dd> Objects in Node.js can fire events, like the readStream object fires events when opening and closing a file.</dd>
+									</dl>
 
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Function</div>
-							<div class="accordion_panel">
-								<p class="footer_column_title" style="color:dimgray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
-							</div>
-						</div>
-
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> String</div>
-							<div class="accordion_panel">
-								<p class="footer_column_title" style="color:dimgray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
-							</div>
-						</div>
-
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Array</div>
-							<div class="accordion_panel">
-								<p class="footer_column_title" style="color:dimgray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
-							</div>
-						</div>
-
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Working with file and Directories</div>
-							<div class="accordion_panel">
-								<p class="footer_column_title" style="color:dimgray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
+									<dl>
+										<dt class="lead">Events Module</dt>
+										<dd>Node.js has a built-in module, called "Events", where you can create-, fire-, and listen for- your own events.</dd>
+										<dd>To include the built-in Events module use the require() method. In addition, all event properties and methods are an instance of an EventEmitter object. To be able to access these properties and methods, create an EventEmitter object:</dd>
+										<dd><img src="images/nodejs12.png"></dd>
+									</dl>
+								</div>
 							</div>
 						</div>
 
