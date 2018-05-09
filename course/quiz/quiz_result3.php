@@ -1,8 +1,8 @@
 <?php
 /**
-* quiz1.php
+* quiz3.php
 *
-* Result checker for quiz number 1
+* Result checker for quiz number 3
 * 
 * @author Darren Sison
 */ 
@@ -63,5 +63,5 @@ if ($answer23 == $ans23) { $totalCorrect++; }
 if ($answer24 == $ans24) { $totalCorrect++; }
 if ($answer25 == $ans25) { $totalCorrect++; }
 
-echo "<div id='results'>$totalCorrect / 5 correct</div>";
+echo "<div id='results'>$totalCorrect / 20 correct</div>";
 ?>
