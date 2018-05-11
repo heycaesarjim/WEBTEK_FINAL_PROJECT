@@ -10,7 +10,16 @@
 include 'quiz_questions3.php';
 ?>
 <html>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>PHP Quiz</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+    <div id="page-wrap">
 <form name="quiz" onsubmit="return validateForm()" action="quiz_result3.php" method="post" id="quiz">
+    <ol>
 <!-- Question 1 -->
 <li>
 	<h3><?php echo $question1; ?></h3>
@@ -288,7 +297,9 @@ include 'quiz_questions3.php';
 	</div>
 </li>
 <input type="submit" value="Submit Quiz" />
+    </ol>
 </form>
+    </div>
 </html>
 
 <script type="text/javascript">

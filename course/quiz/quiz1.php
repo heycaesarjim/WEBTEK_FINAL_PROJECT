@@ -10,7 +10,16 @@
 include 'quiz_questions1.php';
 ?>
 <html>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>PHP Quiz</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+    <div id="page-wrap">
 <form name="quiz" onsubmit="return validateForm()" action="quiz_result1.php" method="post" id="quiz">
+    <ol>
 <!-- Question 1 -->
 <li>
 	<h3><?php echo $question1; ?></h3>
@@ -84,7 +93,7 @@ include 'quiz_questions1.php';
 	</div>
 	<div>
 		<input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-		<label for="question-5-answers-B">B) </php> </label>
+		<label for="question-5-answers-B">B) </label>
 	</div>
 	<div>
 		<input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
@@ -399,8 +408,10 @@ include 'quiz_questions1.php';
 		<label for="question-25-answers-D">D) == </label>
 	</div>
 </li>
+        </ol>
 <input type="submit" value="Submit Quiz" />
 </form>
+    </div>
 </html>
 
 <script type="text/javascript">
