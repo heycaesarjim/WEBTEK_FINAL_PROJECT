@@ -50,17 +50,17 @@
                     <nav class="main_nav_container">
                         <div class="main_nav">
                             <ul class="main_nav_list">
-                                <li class="main_nav_item"><a href="index.html">Home</a></li>
+                                <li class="main_nav_item"><a href="index.php">Home</a></li>
                                 <li class="main_nav_item dropdown">
-                                    <a href="course.html" class="dropbtn">Courses</a>
+                                    <a href="course.php" class="dropbtn">Courses</a>
                                     <div class="dropdown-content">
                                         <a href="#serverSideScripting">Server Scripting</a>
                                         <a href="#webAppSecurity">Web App Security</a>
                                     </div>
                                 </li>
-                                <li class="main_nav_item"><a href="videos.html">Multimedia</a></li>
-                                <li class="main_nav_item"><a href="quiz.html">quiz</a></li>
-                                <li class="main_nav_item"><a href="index.html">About Us</a></li>
+                                <li class="main_nav_item"><a href="videos.php">Multimedia</a></li>
+                                <li class="main_nav_item"><a href="quiz.php">quiz</a></li>
+                                <li class="main_nav_item"><a href="index.php">About Us</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -88,11 +88,11 @@
                 <div class="menu_inner menu_mm">
                     <div class="menu menu_mm">
                         <ul class="menu_list menu_mm">
-                            <li class="menu_item menu_mm"><a href="index.html">HOME</a></li>
-                            <li class="menu_item menu_mm"><a href="course.html">COURSES</a></li>
-                            <li class="menu_item menu_mm"><a href="videos.html">MULTIMEDIA</a></li>
-                            <li class="menu_item menu_mm"><a href="quiz.html">QUIZ</a></li>
-                            <li class="menu_item menu_mm"><a href="index.html">ABOUT US</a></li>
+                            <li class="menu_item menu_mm"><a href="index.php">HOME</a></li>
+                            <li class="menu_item menu_mm"><a href="course.php">COURSES</a></li>
+                            <li class="menu_item menu_mm"><a href="videos.php">MULTIMEDIA</a></li>
+                            <li class="menu_item menu_mm"><a href="quiz.php">QUIZ</a></li>
+                            <li class="menu_item menu_mm"><a href="index.php">ABOUT US</a></li>
                         </ul>
                     </div>
 

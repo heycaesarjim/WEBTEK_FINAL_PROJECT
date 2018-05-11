@@ -52,16 +52,16 @@
 					<nav class="main_nav_container">
 						<div class="main_nav">
 							<ul class="main_nav_list">
-								<li class="main_nav_item"><a href="index.html">Home</a></li>
+								<li class="main_nav_item"><a href="index.php">Home</a></li>
 								<li class="main_nav_item dropdown">
-									<a href="course.html" class="dropbtn">Courses</a>
+									<a href="course.php" class="dropbtn">Courses</a>
 									<div class="dropdown-content">
-										<a href="course.html">Server Scripting</a>
-										<a href="course.html">Web App Security</a>
+										<a href="course.php">Server Scripting</a>
+										<a href="course.php">Web App Security</a>
 									</div>
 								</li>
-								<li class="main_nav_item"><a href="videos.html">Multimedia</a></li>
-								<li class="main_nav_item"><a href="quiz.html">quiz</a></li>
+								<li class="main_nav_item"><a href="videos.php">Multimedia</a></li>
+								<li class="main_nav_item"><a href="quiz.php">quiz</a></li>
 								<li class="main_nav_item"><a href="#AboutUs">About Us</a></li>
 							</ul>
 						</div>
@@ -93,10 +93,10 @@
 				<div class="menu_inner menu_mm">
 					<div class="menu menu_mm">
 						<ul class="menu_list menu_mm">
-							<li class="menu_item menu_mm"><a href="index.html">HOME</a></li>
-                            <li class="menu_item menu_mm"><a href="course.html">COURSES</a></li>
-							<li class="menu_item menu_mm"><a href="videos.html">MULTIMEDIA</a></li>
-							<li class="menu_item menu_mm"><a href="quiz.html">QUIZ</a></li>
+							<li class="menu_item menu_mm"><a href="index.php">HOME</a></li>
+                            <li class="menu_item menu_mm"><a href="course.php">COURSES</a></li>
+							<li class="menu_item menu_mm"><a href="videos.php">MULTIMEDIA</a></li>
+							<li class="menu_item menu_mm"><a href="quiz.php">QUIZ</a></li>
 							<li class="menu_item menu_mm"><a href="#AboutUs">ABOUT US</a></li>
 						</ul>
 					</div>
@@ -160,7 +160,7 @@
 									<img src="images/earth-globe.svg" class="svg" alt="">
 									<div class="hero_box_content">
 										<h2 class="hero_box_title">Server-Side Scripting</h2>
-										<a href="course.html" class="hero_box_link">view more</a>
+										<a href="course.php" class="hero_box_link">view more</a>
 									</div>
 								</div>
 							</div>
@@ -170,7 +170,7 @@
 									<img src="images/books.svg" class="svg" alt="">
 									<div class="hero_box_content">
 										<h2 class="hero_box_title">Web Application Security</h2>
-										<a href="course.html" class="hero_box_link">view more</a>
+										<a href="course.php" class="hero_box_link">view more</a>
 									</div>
 								</div>
 							</div>
@@ -180,7 +180,7 @@
 									<img src="images/professor.svg" class="svg" alt="">
 									<div class="hero_box_content">
 										<h2 class="hero_box_title">Activities</h2>
-										<a href="quiz.html" class="hero_box_link">view more</a>
+										<a href="quiz.php" class="hero_box_link">view more</a>
 									</div>
 								</div>
 							</div>
