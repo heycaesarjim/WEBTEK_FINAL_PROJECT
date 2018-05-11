@@ -26,7 +26,7 @@
         //Start your session
         session_start();
         if (isset($_SESSION['name']) && $_SESSION['name'] == true) {
-            echo "You are logged in as, " . $_SESSION['name'] . "!";
+            echo "Welcome to this course, " . $_SESSION['name'] . "!";
         } else {
             header("location: login.php");
         }
