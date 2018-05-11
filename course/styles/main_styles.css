@@ -13,30 +13,30 @@ COLOR PALETTE
 1. Fonts
 2. Body and some general stuff
 3. Header
-	3.1 Logo
-	3.2 Main Nav
-	3.3 Header Side
-	3.4 Hamburger
+3.1 Logo
+3.2 Main Nav
+3.3 Header Side
+3.4 Hamburger
 4. Menu
-	4.1 Menu Social
-	4.2 Menu copyright
+4.1 Menu Social
+4.2 Menu copyright
 5. Home
-	5.1 Hero Slider
-	5.2 Hero Slider Navigation
+5.1 Hero Slider
+5.2 Hero Slider Navigation
 6. Hero Boxes
 7. Page Section
 8. Buttons
 9. Popular
 10. Register
 11. Search
-	11.1 Search Form
+11.1 Search Form
 12. Services
 13. Testimonials
 14. Events
 15. Footer
-	15.1 Newsletter
-	15.2 Footer Content
-	15.3 Footer Copyright
+15.1 Newsletter
+15.2 Footer Content
+15.3 Footer Copyright
 
 
 ******************************/
@@ -72,8 +72,8 @@ div
 	display: block;
 	position: relative;
 	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 ul
 {
@@ -153,7 +153,7 @@ h4::selection,
 h5::selection, 
 h6::selection
 {
-	
+
 }
 ::-webkit-input-placeholder
 {
@@ -923,7 +923,7 @@ section
 .card-img-top
 {
 	border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
 }
 .card-body
 {
@@ -1507,9 +1507,85 @@ input:last-of-type
 }
 
 .lead {
-  margin-top: 20px;
-  margin-bottom: 5px;
-  font-weight: 300;
-  line-height: 1.4;
-  color: #25bcc4;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-weight: 300;
+	line-height: 1.4;
+	color: #25bcc4;
+}
+
+.hiddenimg {
+	display: none;
+	background-repeat: no-repeat;
+}
+
+.hiddentxt {
+	font-weight: bold;
+	color: #F00;
+}
+
+.hiddentxt a {
+	color: #F00;
+	text-decoration: none;
+}
+
+.hiddenclick {
+	font-weight: bold;
+	color: #F00;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.hiddenclick a {
+	color: #F00;
+	text-decoration: none;
+}
+
+.hiddenclick a:visited {
+	color: #F00;
+	text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+	display: block;
+}
+
+nav li a,
+.dropbtn {
+	font-size: 21px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover,
+.dropdown:hover .dropbtn {
+	background-color: white;
+}
+
+nav li.dropdown {
+	display: inline-block;
+}
+
+nav .dropdown-content {
+	display: none;
+	position: fixed;
+	background-color: white;
+	min-width: 160px;
+	z-index: 1;
+}
+
+nav .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+nav .dropdown:hover .dropdown-content {
+	display: block;
 }

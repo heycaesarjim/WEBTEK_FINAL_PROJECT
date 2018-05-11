@@ -41,10 +41,16 @@
 						<div class="main_nav">
 							<ul class="main_nav_list">
 								<li class="main_nav_item"><a href="index.html">Home</a></li>
-								<li class="main_nav_item"><a href="course.html">Courses</a></li>
+								<li class="main_nav_item dropdown">
+									<a href="course.html" class="dropbtn">Courses</a>
+									<div class="dropdown-content">
+										<a href="#serverSideScripting">Server Scripting</a>
+										<a href="#webAppSecurity">Web App Security</a>
+									</div>
+								</li>
 								<li class="main_nav_item"><a href="videos.html">Multimedia</a></li>
 								<li class="main_nav_item"><a href="quiz.html">quiz</a></li>
-								<li class="main_nav_item"><a href="#AboutUs">About Us</a></li>
+								<li class="main_nav_item"><a href="index.html">About Us</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -91,7 +97,7 @@
 					<div class="home_background prlx" style="background-image:url(images/php.jpg)"></div>
 				</div>
 				<div class="home_content">
-					<h1>Server Scripting</h1>
+					<h1 id="serverSideScripting">Server Scripting</h1>
 				</div>
 			</div>
 
@@ -158,7 +164,9 @@
 										<dt class="lead">Basic PHP Syntax</dt>
 										<dd>&nbsp;A PHP script can be placed anywhere in the document.</dd>
 										<dd>&nbsp;A PHP script starts with <?php and ends with ?>:</dd>
-										<dd><img src ="images/php1.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php1.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 										<dd>&nbsp;The default file extension for PHP files is ".php".</dd>
 										<dd>&nbsp;A PHP file normally contains HTML tags, and some PHP scripting code.</dd>
 									</dl>
@@ -170,14 +178,19 @@
 										<dd>&ensp;•	Let others understand what you are doing</dd>
 										<dd>&ensp;•	Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code.</dd>
 										<dd>&nbsp;PHP supports several ways of commenting:</dd>
-										<dd><img src ="images/php2.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php2.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php2.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Case Sensitivity</dt>
+										<dd>
+											<span class="hiddentxt"><a href="images/php3.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php3.png" height="auto;" width="auto;" /></span>.
+										</dd>
 										<dd>&nbsp;In PHP, all keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are NOT case-sensitive.</dd>
 										<dd>&nbsp;In the example below, all three echo statements below are legal (and equal):</dd>
-										<dd><img src ="images/php3.png"></dd>
+
 									</dl>
 								</div>
 							</div>
@@ -215,16 +228,22 @@
 									<dl>
 										<dt class="lead">Global and Local Scope</dt>
 										<dd>&nbsp;A variable declared outside a function has a GLOBAL SCOPE and can only be accessed outside a function:</dd>
-										<dd><img src ="images/php4.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php4.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 										<dd>&nbsp;A variable declared within a function has a LOCAL SCOPE and can only be accessed within that function:</dd>
-										<dd><img src ="images/php5.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php5.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP The global Keyword</dt>
 										<dd>&nbsp;The global keyword is used to access a global variable from within a function.</dd>
 										<dd>&nbsp;To do this, use the global keyword before the variables (inside the function):</dd>
-										<dd><img src ="images/php6.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php6.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
@@ -250,7 +269,9 @@
 										<br>
 										<dd><b>Display Text</b></dd>
 										<dd>&nbsp;The following example shows how to output text with the echo command (notice that the text can contain HTML markup):</dd>
-										<dd><img src ="images/php7.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php7.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
@@ -258,7 +279,9 @@
 										<dd>&nbsp;The print statement can be used with or without parentheses: print or print().</dd>
 										<dd><b>Display Text</b></dd>>
 										<dd>&nbsp;The following example shows how to output text with the print command (notice that the text can contain HTML markup):</dd>
-										<dd><img src ="images/php8.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php8.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
@@ -278,7 +301,9 @@
 									<dl>
 										<dt class="lead">PHP String</dt>
 										<dd>&nbsp;A string is a sequence of characters, like "Hello world!".</dd>
-										<dd><img src ="images/php9.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php9.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
@@ -289,32 +314,42 @@
 										<dd>&ensp;•	An integer must not have a decimal point</dd>
 										<dd>&ensp;•	An integer can be either positive or negative</dd>
 										<dd>&ensp;•	Integers can be specified in three formats: decimal (10-based), hexadecimal (16-based - prefixed with 0x) or octal (8-based - prefixed with 0)</dd>
-										<dd><img src ="images/php10.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php10.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Float</dt>
 										<dd>&nbsp;A float (floating point number) is a number with a decimal point or a number in exponential form.</dd>
-										<dd><img src ="images/php11.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php11.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Boolean</dt>
 										<dd>&nbsp;A Boolean represents two possible states: TRUE or FALSE.</dd>
-										<dd><img src ="images/php12.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php12.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Array</dt>
 										<dd>&nbsp;An array stores multiple values in one single variable.</dd>
-										<dd><img src ="images/php13.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php13.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Object</dt>
 										<dd>&nbsp;An object is a data type which stores data and information on how to process that data.</dd>
 										<dd>&nbsp;In PHP, an object must be explicitly declared.</dd>
-										<dd><img src ="images/php14.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php14.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 								</div>
 							</div>
@@ -339,33 +374,43 @@
 									<dl>
 										<dt class="lead">PHP Arithmetic Operators</dt>
 										<dd>&nbsp;The PHP arithmetic operators are used with numeric values to perform common arithmetical operations, such as addition, subtraction, multiplication etc.</dd>
-										<dd><img src ="images/php15.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php15.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Assignment Operators</dt>
 										<dd>&nbsp;The PHP assignment operators are used with numeric values to write a value to a variable.</dd>
 										<dd>&nbsp;The basic assignment operator in PHP is "=". It means that the left operand gets set to the value of the assignment expression on the right.</dd>
-										<dd><img src ="images/php16.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php16.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Comparison Operators</dt>
 										<dd>&nbsp;The PHP comparison operators are used to compare two values (number or string):</dd>
-										<dd><img src ="images/php17.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php17.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Increment / Decrement Operators</dt>
 										<dd>&nbsp;The PHP increment operators are used to increment a variable's value.</dd>
 										<dd>&nbsp;The PHP decrement operators are used to decrement a variable's value.</dd>
-										<dd><img src ="images/php18.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php18.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
 										<dt class="lead">PHP Logical Operators</dt>
 										<dd>&nbsp;The PHP logical operators are used to combine conditional statements.</dd>
-										<dd><img src ="images/php19.png"></dd>
+										<dd>
+											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php19.png"  height="auto;" width="auto;" /></span>.
+										</dd>
 									</dl>
 
 									<dl>
@@ -405,7 +450,9 @@
 									<dd>&ensp;•	Indexed arrays - Arrays with a numeric index</dd>
 									<dd>&ensp;•	Associative arrays - Arrays with named keys</dd>
 									<dd>&ensp;•	Multidimensional arrays - Arrays containing one or more arrays</dd>
-									<dd><img src ="images/php20.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php20.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 							</div>
 						</div>
@@ -414,22 +461,31 @@
 					<div class="accordion_container">
 						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Multimedia</div>
 						<div class="accordion_panel">
-							<video width="500" height="500" controls>
-								<source src="videos/Tutorial%201%20-%20Introduction%20to%20PHP.mp4" type="video/mp4">
-								Your browser does not support HTML5 video.
-							</video>
+							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
+								<div class="text-center">
+									<dt class="lead">PHP</dt>
+									<video width="600" height="600" controls>
+										<source src="videos/Tutorial%201%20-%20Introduction%20to%20PHP.mp4" type="video/mp4">
+										Your browser does not support HTML5 video.
+									</video>
 
-							<p>
-								Video courtesy of 
-								<a href="https://www.youtube.com/channel/UCzvs-_Nbw7YFC4fYWiSfhTw" target="_blank">Robert Smith</a>.
-							</p>
+									<dd>
+										Video courtesy of 
+										<a href="https://www.youtube.com/channel/UCzvs-_Nbw7YFC4fYWiSfhTw" target="_blank">Robert Smith</a>.
+									</dd>
+								</div>
+							</div>
 						</div>
 					</div>
-
 					<div class="accordion_container">
 						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Quiz</div>
 						<div class="accordion_panel">
-							<p class="footer_column_title" style="color:dimgray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
+							<div class="text-center">
+								<dt class="lead">Click the button below to take the quiz</dt>
+								<div class="container">
+									<div class="button button_line_2 text-center trans_200"><a href="#">Start Quiz</a></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -449,7 +505,6 @@
 
 						<div class="register_section d-flex flex-column align-items-center justify-content-center">
 							<div class="register_content text-center">
-								<h1 class="register_title">What is this  <span>website</span> all about?</h1>
 							</div>
 						</div>
 
@@ -462,7 +517,6 @@
 						<div class="search_section d-flex flex-column align-items-center justify-content-center">
 							<div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
 							<div class="search_content text-center">
-								<p class="footer_column_title" style="color:dimgray">This website is a project of the Course Web Systems and Technologies of the Saint Louis University - Baguio City. The purpose of this site is to share the ideas and knowledge about the web. This includes the topics in the Server Side Scripting - PHP, Node JS and JSP.</p>
 							</div> 
 						</div>
 
@@ -560,9 +614,12 @@
 								<dl>
 									<dt class="lead">Include Modules</dt>
 									<dd>&nbsp;To include a module, use the require() function with the name of the module:</dd>
-									<dd><img src="images/nodejs1.png"></dd>
-									<dd>&nbsp;Now your application has access to the HTTP module, and is able to create a server:</dd>
-									<dd><img src="images/nodejs2.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs1.png"  height="auto;" width="auto;" /></span>.
+									</dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs2.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 
 								</dl>
 
@@ -571,7 +628,9 @@
 									<dd>&nbsp;You can create your own modules, and easily include them in your applications.</dd>
 									<br>
 									<dd>&nbsp;The following example creates a module that returns a date and time object:</dd>
-									<dd><img src="images/nodejs3.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs3.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 									<dd>&nbsp;Use the exports keyword to make properties and methods available outside the module file.</dd>
 									<dd>&nbsp;Save the code above in a file called "myfirstmodule.js"</dd>
 								</dl>
@@ -580,7 +639,9 @@
 									<dt class="lead">Include Your Own Module</dt>
 									<dd>&nbsp;Now you can include and use the module in any of your Node.js files.</dd>
 									<br>
-									<dd><img src="images/nodejs4.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs4.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 							</div>
 						</div>
@@ -594,24 +655,32 @@
 									<dt class="lead">The Built-in HTTP Module</dt>
 									<dd>&nbsp; Node.js has a built-in module called HTTP, which allows Node.js to transfer data over the Hyper Text Transfer Protocol (HTTP).</dd>
 									<dd>&nbsp; To include the HTTP module, use the require() method:</dd>
-									<dd><img src="images/nodejs5.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs5.png" height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
 									<dt class="lead">Node.js as a Web Server</dt>
 									<dd>&nbsp;The HTTP module can create an HTTP server that listens to server ports and gives a response back to the client.</dd>
 									<dd>&nbsp;Use the createServer() method to create an HTTP server:</dd>
-									<dd><img src="images/nodejs6.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs6.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 									<dd>&nbsp;The function passed into the http.createServer() method, will be executed when someone tries to access the computer on port 8080.</dd>
 									<dd>&nbsp;Save the code above in a file called "demo_http.js", and initiate the file:</dd>
-									<dd><img src="images/nodejs7.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs7.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 									<dd>&nbsp;If you have followed the same steps on your computer, you will see the same result as the example: http://localhost:8080</dd>
 								</dl>
 
 								<dl>
 									<dt class="lead">Add an HTTP Header</dt>
 									<dd>&nbsp;If the response from the HTTP server is supposed to be displayed as HTML, you should include an HTTP header with the correct content type:</dd>
-									<dd><img src="images/nodejs8.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs8.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 									<dd>&nbsp;The first argument of the res.writeHead() method is the status code, 200 means that all is OK, the second argument is an object containing the response headers.</dd>
 								</dl>
 							</div>
@@ -625,7 +694,9 @@
 									<dt class="lead">Node.js as a File Server</dt>
 									<dd>&nbsp; The Node.js file system module allow you to work with the file system on your computer.</dd>
 									<dd>&nbsp; To include the File System module, use the require() method:</dd>
-									<dd><img src="images/nodejs9.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs9.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 									<br>
 									<dd>&nbsp;Common use for the File System module:</dd>
 									<dd>&ensp;•	Read files</dd>
@@ -639,7 +710,9 @@
 									<dt class="lead">Read Files</dt>
 									<dd>&nbsp;The fs.readFile() method is used to read files on your computer.</dd>
 									<dd>&nbsp;Assume we have the following HTML file (located in the same folder as Node.js):</dd>
-									<dd><img src="images/nodejs10.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs10.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
@@ -649,7 +722,9 @@
 									<dd>&ensp;•	fs.open()</dd>
 									<dd>&ensp;•	fs.writeFile()</dd>
 									<dd>&nbsp;The fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created:</dd>
-									<dd><img src="images/nodejs11.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs11.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 									<dd>&nbsp;The fs.open() method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created.</dd>
 									<dd>The fs.writeFile() method replaces the specified file and content if it exists. If the file does not exist, a new file, containing the specified content, will be created.</dd>
 								</dl>
@@ -691,7 +766,9 @@
 									<dt class="lead">Events Module</dt>
 									<dd>&nbsp;Node.js has a built-in module, called "Events", where you can create-, fire-, and listen for- your own events.</dd>
 									<dd>&nbsp;To include the built-in Events module use the require() method. In addition, all event properties and methods are an instance of an EventEmitter object. To be able to access these properties and methods, create an EventEmitter object:</dd>
-									<dd><img src="images/nodejs12.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs12.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 							</div>
 						</div>
@@ -700,22 +777,32 @@
 					<div class="accordion_container">
 						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Multimedia</div>
 						<div class="accordion_panel">
-							<video width="500" height="500" controls>
-								<source src="videos/Node.js%20-%20Tutorial%20-%20First%20Application.mp4" type="video/mp4">
-								Your browser does not support HTML5 video.
-							</video>
+							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
+								<div class="text-center">
+									<dt class="lead">Node JS</dt>
+									<video width="600" height="600" controls>
+										<source src="videos/Node.js%20-%20Tutorial%20-%20First%20Application.mp4" type="video/mp4">
+										Your browser does not support HTML5 video.
+									</video>
 
-							<p>
-								Video courtesy of 
-								<a href="https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w" target="_blank">Academind</a>.
-							</p>
+									<dd>
+										Video courtesy of 
+										<a href="https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w" target="_blank">Academind</a>.
+									</dd>
+								</div>
+							</div>
 						</div>
 					</div>
 
 					<div class="accordion_container">
 						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Quiz</div>
 						<div class="accordion_panel">
-							<p class="footer_column_title" style="color:dimgray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
+							<div class="text-center">
+								<dt class="lead">Click the button below to take the quiz</dt>
+								<div class="container">
+									<div class="button button_line_2 text-center trans_200"><a href="#">Start Quiz</a></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -735,7 +822,6 @@
 
 						<div class="register_section d-flex flex-column align-items-center justify-content-center">
 							<div class="register_content text-center">
-								<h1 class="register_title">What is this  <span>website</span> all about?</h1>
 							</div>
 						</div>
 
@@ -748,7 +834,6 @@
 						<div class="search_section d-flex flex-column align-items-center justify-content-center">
 							<div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
 							<div class="search_content text-center">
-								<p class="footer_column_title" style="color:dimgray">This website is a project of the Course Web Systems and Technologies of the Saint Louis University - Baguio City. The purpose of this site is to share the ideas and knowledge about the web. This includes the topics in the Server Side Scripting - PHP, Node JS and JSP.</p>
 							</div> 
 						</div>
 
@@ -806,13 +891,17 @@
 								<dl>
 									<dt class="lead">The Scriptlet</dt>
 									<dd>&nbsp; - A scriptlet can contain any number of JAVA language statements, variable or method declarations, or expressions that are valid in the page scripting language.</dd>
-									<dd><img src="images/jsp1.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp1.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
 									<dt class="lead">JSP Declarations</dt>
 									<dd>&nbsp; - A declaration declares one or more variables or methods that you can use in Java code later in the JSP file. You must declare the variable or method before you use it in the JSP file.</dd>
-									<dd><img src="images/jsp2.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp2.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
@@ -820,20 +909,28 @@
 									<dd>&nbsp;A JSP expression element contains a scripting language expression that is evaluated, converted to a String, and inserted where the expression appears in the JSP file.</dd>
 									<dd>&nbsp;Because the value of an expression is converted to a String, you can use an expression within a line of text, whether or not it is tagged with HTML, in a JSP file.</dd>
 									<dd>&nbsp;The expression element can contain any expression that is valid according to the Java Language Specification but you cannot use a semicolon to end an expression.</dd>
-									<dd><img src="images/jsp3.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp3.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
 									<dt class="lead">JSP Comments</dt>
 									<dd>&nbsp; - JSP comment marks text or statements that the JSP container should ignore. A JSP comment is useful when you want to hide or "comment out", a part of your JSP page.</dd>
-									<dd><img src="images/jsp4.png"></dd>
-									<dd><img src="images/jsp5.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp4.png" height="auto;" width="auto;" /></span>.
+									</dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp5.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
 									<dt class="lead">JSP Directives</dt>
 									<dd>&nbsp; - A JSP directive affects the overall structure of the servlet class. It usually has the following form</dd>
-									<dd><img src="images/jsp6.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp6.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
@@ -851,14 +948,18 @@
 								<dl>
 									<dt class="lead">Decision-Making Statements</dt>
 									<dd>&nbsp; - The if...else block starts out like an ordinary Scriptlet, but the Scriptlet is closed at each line with HTML text included between the Scriptlet tags.</dd>
-									<dd><img src="images/jsp7.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp7.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
 									<dt class="lead">JSP Operators</dt>
 									<dd>&nbsp; JSP supports all the logical and arithmetic operators supported by Java. Following table lists out all the operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom.</dd>
 									<dd>&nbsp; Within an expression, higher precedence operators will be evaluated first.</dd>
-									<dd><img src="images/jsp8.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp8.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
@@ -992,7 +1093,9 @@
 								<dl>
 									<dd>&nbsp;Following is the example which uses getHeaderNames() method of HttpServletRequest to read the HTTP header information. This method returns an Enumeration that contains the header information associated with the current HTTP request.</dd>
 									<dd>&nbsp;Once we have an Enumeration, we can loop down the Enumeration in the standard manner. We will use the hasMoreElements() method to determine when to stop and the nextElement() method to get the name of each parameter name.</dd>
-									<dd><img src="images/jsp9.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp9.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
@@ -1048,7 +1151,9 @@
 							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
 								<dl>
 									<dd>&nbsp;Following example would use setIntHeader() method to set Refresh header to simulate a digital clock</dd>
-									<dd><img src="images/jsp10.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp10.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 
 								<dl>
@@ -1070,7 +1175,9 @@
 							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
 								<dl>
 									<dt class="lead">Following methods can be used to set the HTTP Status Code in your servlet program. These methods are available with the HttpServletResponse object.</dt>
-									<dd><img src="images/jsp11.png"></dd>
+									<dd>
+										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp11.png"  height="auto;" width="auto;" /></span>.
+									</dd>
 								</dl>
 							</div>
 						</div>
@@ -1079,58 +1186,31 @@
 					<div class="accordion_container">
 						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Multimedia</div>
 						<div class="accordion_panel">
-							<video width="500" height="500" controls>
-								<source src="videos/Introduction%20to%20Java%20Servlets.mp4" type="video/mp4">
-								Your browser does not support HTML5 video.
-							</video>
+							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
+								<div class="text-center">
+									<dt class="lead">Java Servlet Pages</dt>
+									<video width="600" height="600" controls>
+										<source src="videos/Introduction%20to%20Java%20Servlets.mp4" type="video/mp4">
+										Your browser does not support HTML5 video.
+									</video>
 
-							<p>
-								Video courtesy of 
-								<a href="https://www.youtube.com/channel/UC5HozNtwmUuEDkLw4xQCQYw" target="_blank">Craig Piercy</a>.
-							</p>
+									<dd>
+										Video courtesy of 
+										<a href="https://www.youtube.com/channel/UC5HozNtwmUuEDkLw4xQCQYw" target="_blank">Craig Piercy</a>.
+									</dd>
+								</div>
+							</div>
 						</div>
 					</div>
-
 					<div class="accordion_container">
 						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Quiz</div>
 						<div class="accordion_panel">
-							<div class="container">
-								<div class="button button_line_2 text-center trans_200"><a href="#">Read More</a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Register -->
-
-			<div class="register">
-
-				<div class="container-fluid">
-
-					<div class="row row-eq-height">
-						<div class="col-lg-6 nopadding">
-
-							<!-- Register -->
-
-							<div class="register_section d-flex flex-column align-items-center justify-content-center">
-								<div class="register_content text-center">
-									<h1 class="register_title">What is this  <span>website</span> all about?</h1>
+							<div class="text-center">
+								<dt class="lead">Click the button below to take the quiz</dt>
+								<div class="container">
+									<div class="button button_line_2 text-center trans_200"><a href="#">Start Quiz</a></div>
 								</div>
 							</div>
-
-						</div>
-
-						<div class="col-lg-6 nopadding">
-
-							<!-- Search -->
-
-							<div class="search_section d-flex flex-column align-items-center justify-content-center">
-								<div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
-								<div class="search_content text-center">
-									<p class="footer_column_title" style="color:dimgray">This website is a project of the Course Web Systems and Technologies of the Saint Louis University - Baguio City. The purpose of this site is to share the ideas and knowledge about the web. This includes the topics in the Server Side Scripting - PHP, Node JS and JSP.</p>
-								</div> 
-							</div>
-
 						</div>
 					</div>
 				</div>
@@ -1143,58 +1223,116 @@
 					<div class="home_background prlx" style="background-image:url(images/php.jpg)"></div>
 				</div>
 				<div class="home_content">
-					<h1>Web App Security</h1>
+					<h1 id="webAppSecurity">Web App Security</h1>
 				</div>
 			</div>
+		</div>
+		<!-- OWASP -->
 
-			<!-- OWASP -->
-
-			<div class="popular page_section">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="section_title text-center">
-								<h1>OWASP Top 10 Web Application Security Risks</h1>
-							</div>
-						</div>
-					</div>
-				</div>		
-			</div>
-
-			<!-- Register -->
-
-			<div class="register">
-
-				<div class="container-fluid">
-
-					<div class="row row-eq-height">
-						<div class="col-lg-6 nopadding">
-
-							<!-- Register -->
-
-							<div class="register_section d-flex flex-column align-items-center justify-content-center">
-								<div class="register_content text-center">
-									<h1 class="register_title">What is this  <span>website</span> all about?</h1>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="col-lg-6 nopadding">
-
-							<!-- Search -->
-
-							<div class="search_section d-flex flex-column align-items-center justify-content-center">
-								<div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
-								<div class="search_content text-center">
-									<p class="footer_column_title" style="color:dimgray">This website is a project of the Course Web Systems and Technologies of the Saint Louis University - Baguio City. The purpose of this site is to share the ideas and knowledge about the web. This includes the topics in the Server Side Scripting - PHP, Node JS and JSP.</p>
-								</div> 
-							</div>
-
+		<div class="popular page_section">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>OWASP</h1>
 						</div>
 					</div>
 				</div>
+			</div>		
+
+			<div class="col-lg-12">
+
+				<!-- Syllabus OWASP -->
+				<div class="elements_accordions">
+
+					<div class="accordion_container">
+						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Top 10 Web Application Security Risks</div>
+						<div class="accordion_panel">
+							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
+								<dl>
+									<dt class="lead">1: Injection</dt>
+									<dd>&nbsp; - Injection flaws, such as SQL injection LDAP injection, and CRLF injection, occur when an attacker sends untrusted data to an interpreter that is executed as a command without proper authorization</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Application security testing</b> can easily detect injection flaws. Developers should use parameterized queries when coding to prevent injection flaws.</dd>
+									<br>
+								</dl>
+
+								<dl>
+									<dt class="lead">2: Broken Authentication</dt>
+									<dd>&nbsp; - Incorrectly configured user and session authentication could allow attackers to compromise passwords, keys, or session tokens, or take control of users' accounts to assume their identities.</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Multi-factor authentication</b>, such as FIDO or dedicated apps, reduces the risk of compromised accounts.</dd>
+									<br>
+								</dl>
+
+								<dl>
+									<dt class="lead">3: Sensitive Data Exposure</dt>
+									<dd>&nbsp; - Applications and APIs that don't properly protect sensitive data such as financial data, usernames and passwords, or health information, could enable attackers to access such information to commit fraud or steal identities.</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Encryption of data at rest and in transit</b></dd>
+									<br>
+								</dl>
+
+								<dl>
+									<dt class="lead">4: XML External Entities</dt>
+									<dd>&nbsp; - Poorly configured XML processors evaluate external entity references within XML documents. Attackers can use external entities for attacks including remote code execution, and to disclose internal files and SMB file shares.</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Static application security testing (SAST)</b> can discover this issue by inspecting dependencies and configuration</dd>
+								</dl>
+
+								<dl>
+									<dt class="lead">5: Broken Access Control</dt>
+									<dd>&nbsp; - Improperly configured or missing restrictions on authenticated users allow them to access unauthorized functionality or data, such as accessing other users' accounts, viewing sensitive documents, and modifying data and access rights.</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Penetration testing</b>, is essential for detecting non-functional access controls; other testing methods only detect where access are missing</dd>
+									<br>
+								</dl>
+
+								<dl>
+									<dt class="lead">6: Security Misconfiguration</dt>
+									<dd>&nbsp; - This risk refers to improper implementation of controls intented to keep application data safe, such as misconfiguration of security headers. error messages containing sensitive information (information leakage), and not patching or upgrading systems, frameworks, and components</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Dynamic application security testing (DAST)</b> can detect misconfigurations, such as leaky APIs</dd>
+									<br>
+								</dl>
+
+								<dl>
+									<dt class="lead">7: Cross-Site Scripting</dt>
+									<dd>&nbsp; - Cross-site scripting(XSS) flaws give attackers the capability to injecct client-side scripts into the application, for example, to redirect users to malicious websites.</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Developer training complements security testing</b> to help programmers prevent cross-site scripting with coding best practices, such as encoding data and input validation.</dd>
+									<br>
+								</dl>
+
+								<dl>
+									<dt class="lead">8: Insecure Deserialization</dt>
+									<dd>&nbsp; - Insecure deserialization flaws can enable an attacker to execute code in the application remotely, tamper or delete serialized (written to disk) objects, conduct injection attacks, and elevate privileges.</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Application security tools can detect deserialization flaws</b> but penetration testing is frequently needed to validate the problem</dd>
+									<br>
+								</dl>
+
+								<dl>
+									<dt class="lead">9: Using Components with Known Vulnerabilities</dt>
+									<dd>&nbsp; - Developers frequently don't know which open source and third-party components are in their applications, making it difficult to update components when new vulnerabilities are discovered. Attackers can exploit an insecure component to take over the server or steal sensitive data.</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Software composition analysis</b> conducted at the same time as static analysis can identify insecure versions of components.</dd>
+									<br>
+								</dl>
+
+								<dl>
+									<dt class="lead">10: Insufficient Logging and Monitoring</dt>
+									<dd>&nbsp; - The time to detect a breach is frequently measured in weeks or months, insufficient logging and ineffective intergration with security incident response systems allow attackers to pivot to other systems and maintain persistent treats</dd>
+									<dd class="lead">SECURITY TIP</dd>
+									<dd>&nbsp; - <b>Think like an attacker</b> and use pen testing to find out if you have sufficient monitoring,; examine your logs after pen testing.</dd>
+									<br>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+
 			<!-- Footer -->
 
 			<footer class="footer">
@@ -1212,7 +1350,9 @@
 						</div>
 					</div>
 				</div>
+
 			</footer>
+
 
 		</div>
 
@@ -1231,8 +1371,6 @@
 		<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
 		<script src="plugins/easing/easing.js"></script>
 		<script src="js/elements_custom.js"></script>
-
-
 
 	</body>
 </html>
