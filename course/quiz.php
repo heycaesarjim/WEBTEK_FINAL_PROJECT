@@ -14,6 +14,24 @@
     </head>
     <body>
 
+       <?php
+        //Start your session
+        session_start();
+        if (isset($_SESSION['name']) && $_SESSION['name'] == true) {
+            echo "You are logged in as, " . $_SESSION['name'] . "!";
+        } else {
+            header("location: login.php");
+        }
+
+        function echoActiveClassIfRequestMatches($requestUri){
+            $current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
+
+            if ($current_file_name == $requestUri)
+                echo 'class="active-menu"';
+        }
+
+    ?>
+	
         <div class="super_container">
 
             <!-- Header -->
