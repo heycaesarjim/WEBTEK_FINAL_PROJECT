@@ -181,7 +181,6 @@
 									<dl>
 										<dt class="lead">Basic PHP Syntax</dt>
 										<dd>&nbsp;A PHP script can be placed anywhere in the document.</dd>
-									<!--	<dd>&nbsp;A PHP script starts with <?php and ends with ?>:</dd> -->
 										<dd>
 											<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/php1.png"  height="auto;" width="auto;" /></span>.
 										</dd>
