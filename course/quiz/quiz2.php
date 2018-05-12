@@ -13,7 +13,7 @@ include 'quiz_questions2.php';
     <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
-	<title>PHP Quiz</title>
+	<title>JSP Quiz</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
