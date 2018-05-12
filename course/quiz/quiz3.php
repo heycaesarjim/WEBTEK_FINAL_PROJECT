@@ -13,29 +13,10 @@ include 'quiz_questions3.php';
     <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
-	<title>Node JS Quiz</title>
+	<title>PHP Quiz</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
-
-       <?php
-        //Start your session
-        session_start();
-        if (isset($_SESSION['name']) && $_SESSION['name'] == true) {
-            echo "Welcome to this course, " . $_SESSION['name'] . "!";
-        } else {
-            header("location: ../login.php");
-        }
-
-        function echoActiveClassIfRequestMatches($requestUri){
-            $current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
-
-            if ($current_file_name == $requestUri)
-                echo 'class="active-menu"';
-        }
-
-    ?>
-
     <div id="page-wrap">
 <form name="quiz" onsubmit="return validateForm()" action="quiz_result3.php" method="post" id="quiz">
     <ol>
