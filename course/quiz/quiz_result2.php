@@ -8,7 +8,6 @@
 */ 
 //require 'classes/UserAccount.php';
 
-       <?php
         //Start your session
         session_start();
         if (isset($_SESSION['name']) && $_SESSION['name'] == true) {
@@ -24,7 +23,6 @@
                 echo 'class="active-menu"';
         }
 
-    ?>
 
 include 'quiz_questions2.php';
 
