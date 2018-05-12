@@ -14,7 +14,7 @@
         if (isset($_SESSION['name']) && $_SESSION['name'] == true) {
 //            echo "Welcome to this course, " . $_SESSION['name'] . "!";
         } else {
-            header("location: login.php");
+            header("location: ../login.php");
         }
 
         function echoActiveClassIfRequestMatches($requestUri){
