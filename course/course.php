@@ -475,37 +475,6 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="accordion_container">
-						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Multimedia</div>
-						<div class="accordion_panel">
-							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
-								<div class="text-center">
-									<dt class="lead">PHP</dt>
-									<video width="600" height="600" controls>
-										<source src="videos/Tutorial%201%20-%20Introduction%20to%20PHP.mp4" type="video/mp4">
-										Your browser does not support HTML5 video.
-									</video>
-
-									<dd>
-										Video courtesy of 
-										<a href="https://www.youtube.com/channel/UCzvs-_Nbw7YFC4fYWiSfhTw" target="_blank">Robert Smith</a>.
-									</dd>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="accordion_container">
-						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Quiz</div>
-						<div class="accordion_panel">
-							<div class="text-center">
-								<dt class="lead">Click the button below to take the quiz</dt>
-								<div class="container">
-									<div class="button button_line_2 text-center trans_200"><a href="#">Start Quiz</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -788,38 +757,6 @@
 										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/nodejs12.png"  height="auto;" width="auto;" /></span>.
 									</dd>
 								</dl>
-							</div>
-						</div>
-					</div>
-
-					<div class="accordion_container">
-						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Multimedia</div>
-						<div class="accordion_panel">
-							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
-								<div class="text-center">
-									<dt class="lead">Node JS</dt>
-									<video width="600" height="600" controls>
-										<source src="videos/Node.js%20-%20Tutorial%20-%20First%20Application.mp4" type="video/mp4">
-										Your browser does not support HTML5 video.
-									</video>
-
-									<dd>
-										Video courtesy of 
-										<a href="https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w" target="_blank">Academind</a>.
-									</dd>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="accordion_container">
-						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Quiz</div>
-						<div class="accordion_panel">
-							<div class="text-center">
-								<dt class="lead">Click the button below to take the quiz</dt>
-								<div class="container">
-									<div class="button button_line_2 text-center trans_200"><a href="#">Start Quiz</a></div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -1197,37 +1134,6 @@
 										<span class="hiddentxt"><a href="images/php1.png">[Here is an example]</a></span><span class="hiddenimg"><img src="images/jsp11.png"  height="auto;" width="auto;" /></span>.
 									</dd>
 								</dl>
-							</div>
-						</div>
-					</div>
-
-					<div class="accordion_container">
-						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Multimedia</div>
-						<div class="accordion_panel">
-							<div class="footer_column_title" style="color:dimgray; font-weight: 300">
-								<div class="text-center">
-									<dt class="lead">Java Servlet Pages</dt>
-									<video width="600" height="600" controls>
-										<source src="videos/Introduction%20to%20Java%20Servlets.mp4" type="video/mp4">
-										Your browser does not support HTML5 video.
-									</video>
-
-									<dd>
-										Video courtesy of 
-										<a href="https://www.youtube.com/channel/UC5HozNtwmUuEDkLw4xQCQYw" target="_blank">Craig Piercy</a>.
-									</dd>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="accordion_container">
-						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Quiz</div>
-						<div class="accordion_panel">
-							<div class="text-center">
-								<dt class="lead">Click the button below to take the quiz</dt>
-								<div class="container">
-									<div class="button button_line_2 text-center trans_200"><a href="#">Start Quiz</a></div>
-								</div>
 							</div>
 						</div>
 					</div>

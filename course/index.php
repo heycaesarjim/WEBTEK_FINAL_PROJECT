@@ -70,8 +70,6 @@
 				</div>
 
 				<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			<img src="images/phone-call.png" alt="">
-			<span>End Session!</span>
 		</div>
 
 

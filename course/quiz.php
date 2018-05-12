@@ -8,9 +8,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
         <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
-        <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
-        <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+		<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+		<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
     </head>
     <body>
 
@@ -112,14 +120,64 @@
                 </div>
             </div>
 
-            <!-- Contact -->
+ 			<div class="popular page_section">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="section_title text-center">
+								<h1>Take the quiz</h1>
+							</div>
+						</div>
+					</div>
+				</div> 
+					<div class="accordion_container">
+						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> PHP Quiz</div>
+						<div class="accordion_panel">
+							<div class="text-center">
+								<dt class="lead">Click the button below to take the quiz</dt>
+								<div class="container">
+									<div class="button button_line_2 text-center trans_200"><a href="quiz/quiz1.php">Start Quiz</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+            
+            					<div class="accordion_container">
+						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray"> Node JS Quiz</div>
+						<div class="accordion_panel">
+							<div class="text-center">
+								<dt class="lead">Click the button below to take the quiz</dt>
+								<div class="container">
+									<div class="button button_line_2 text-center trans_200"><a href="quiz/quiz3.php">Start Quiz</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+            
+            					<div class="accordion_container">
+						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray">JSP Quiz</div>
+						<div class="accordion_panel">
+							<div class="text-center">
+								<dt class="lead">Click the button below to take the quiz</dt>
+								<div class="container">
+									<div class="button button_line_2 text-center trans_200"><a href="quiz/quiz2.php">Start Quiz</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-            <div class="contact">
-                <div class="container">
-
-                </div>
+ 					<div class="accordion_container">
+						<div class="accordion d-flex flex-row align-items-center footer_column_title" style="color:dimgray">OWASP Quiz</div>
+						<div class="accordion_panel">
+							<div class="text-center">
+								<dt class="lead">Click the button below to take the quiz</dt>
+								<div class="container">
+									<div class="button button_line_2 text-center trans_200"><a href="quiz/quiz4.php">Start Quiz</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
             </div>
-
             <!-- Footer -->
 
             <footer class="footer">
@@ -141,18 +199,21 @@
 
         </div>
 
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="styles/bootstrap4/popper.js"></script>
-        <script src="styles/bootstrap4/bootstrap.min.js"></script>
-        <script src="plugins/greensock/TweenMax.min.js"></script>
-        <script src="plugins/greensock/TimelineMax.min.js"></script>
-        <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-        <script src="plugins/greensock/animation.gsap.min.js"></script>
-        <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-        <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-        <script src="plugins/easing/easing.js"></script>
-        <script src="js/contact_custom.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="styles/bootstrap4/popper.js"></script>
+		<script src="styles/bootstrap4/bootstrap.min.js"></script>
+		<script src="plugins/greensock/TweenMax.min.js"></script>
+		<script src="plugins/greensock/TimelineMax.min.js"></script>
+		<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+		<script src="plugins/greensock/animation.gsap.min.js"></script>
+		<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+		<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+		<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+		<script src="plugins/greensock/animation.gsap.min.js"></script>
+		<script src="plugins/progressbar/progressbar.min.js"></script>
+		<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+		<script src="plugins/easing/easing.js"></script>
+		<script src="js/elements_custom.js"></script>
 
     </body>
 </html>

@@ -17,6 +17,26 @@ include 'quiz_questions1.php';
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
+    
+       <?php
+        //Start your session
+        session_start();
+        if (isset($_SESSION['name']) && $_SESSION['name'] == true) {
+            echo "<div style='float: left; font-size: 20px; '>Welcome to this course, " . $_SESSION['name'] . "!</div>";
+			echo "<div style='float: right;'> <a href='logout.php' class='btn btn-danger square-btn-adjust btn-sm '>End Session</a></div>";
+        } else {
+            header("location: login.php");
+        }
+
+        function echoActiveClassIfRequestMatches($requestUri){
+            $current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
+
+            if ($current_file_name == $requestUri)
+                echo 'class="active-menu"';
+        }
+
+    ?>
+    
     <div id="page-wrap">
 <form name="quiz" onsubmit="return validateForm()" action="quiz_result1.php" method="post" id="quiz">
     <ol>

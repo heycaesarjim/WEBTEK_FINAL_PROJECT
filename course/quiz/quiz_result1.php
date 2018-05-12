@@ -64,4 +64,5 @@ if ($answer24 == $ans24) { $totalCorrect++; }
 if ($answer25 == $ans25) { $totalCorrect++; }
 
 echo "<div id='results'>$totalCorrect / 25 correct</div>";
+echo "<div style='float: left;'> <a href='../index.php' type='button' class='btn btn-primary square-btn-adjust btn-sm '>Back to Home</a></div>";
 ?>
