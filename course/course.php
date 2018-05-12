@@ -26,7 +26,8 @@
         //Start your session
         session_start();
         if (isset($_SESSION['name']) && $_SESSION['name'] == true) {
-            echo "Welcome to this course, " . $_SESSION['name'] . "!";
+            echo "<div style='float: left; font-size: 20px; '>Welcome to this course, " . $_SESSION['name'] . "!</div>";
+			echo "<div style='float: right;'> <a href='logout.php' class='btn btn-danger square-btn-adjust btn-sm '>End Session</a></div>";
         } else {
             header("location: login.php");
         }
